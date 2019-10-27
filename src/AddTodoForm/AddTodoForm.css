@@ -1,0 +1,38 @@
+.add-todo-form {
+    margin-bottom: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.add-todo-field {
+    background-image: linear-gradient(to bottom, #fff, #eee);
+    outline: none;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 1rem;
+    font-size: 1.75rem;
+    color: #333;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    transition: border 250ms;
+}
+
+.add-todo-field:focus {
+    border: 1px solid #666;
+}
+
+.add-todo-button {
+    background-image: linear-gradient(to bottom, #c00, #300);
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    cursor: pointer;
+}

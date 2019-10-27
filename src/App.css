@@ -1,0 +1,18 @@
+.App {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0,0,0, .7);
+  margin: 2rem;
+}
+
+.heading-primary {
+  margin-bottom: 3.5rem;
+  background-image: linear-gradient(to bottom, #f00, #300);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 1.2px;
+}

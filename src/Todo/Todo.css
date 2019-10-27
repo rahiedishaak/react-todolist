@@ -1,0 +1,18 @@
+.todo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.todo-label {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.todo-checkbox {
+    margin-right: 1rem;
+}
